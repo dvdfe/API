@@ -1,3 +1,9 @@
+fetch("https://picsum.photos/1500/1500")
+.then(res => {
+    document.getElementById('background').innerHTML = `<img src=${res.url}>`
+    console.log(res);
+})
+
 fetch("https://api.quotable.io/random")
 .then(res => res.json())
 .then(data => { addQuote(data)
