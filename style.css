@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 body{
@@ -15,7 +16,7 @@ body{
     left: 50%;
     transform: translate(-50%, -50%);
     padding: 2rem;
-    background: rgba(0, 0, 0, 0.8);
+    background: rgba(0, 0, 0, 0.678);
     border-radius: 10px;
     transition: 0.5s;
     color: white;

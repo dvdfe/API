@@ -1,8 +1,8 @@
-
 fetch("https://api.quotable.io/random")
 .then(res => res.json())
 .then(data => { addQuote(data)
 })
+
 
 function addQuote(quote){
     const quoteTag = document.getElementById("quote")
@@ -23,3 +23,4 @@ function makeP(author){
     p.innerHTML = author
     return p
 }
+
