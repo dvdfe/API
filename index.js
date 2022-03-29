@@ -1,7 +1,7 @@
+
 fetch("https://picsum.photos/1500/1500")
 .then(res => {
     document.getElementById('background').innerHTML = `<img src=${res.url}>`
-    console.log(res);
 })
 
 fetch("https://api.quotable.io/random")
@@ -30,3 +30,8 @@ function makeP(author){
     return p
 }
 
+
+newQuote = document.querySelector('quote')
+quote.addEventListener('click', ()=>{
+        location.reload();
+    })
